@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAMG.DTOs", "AAMG.DTOs\AAMG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAMG.AppWebMVC", "AAMG.AppWebMVC\AAMG.AppWebMVC.csproj", "{122599E2-A7AE-4164-8209-982F18241B24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAMG.AppWebBlazor", "AAMG.AppWebBlazor\AAMG.AppWebBlazor.csproj", "{26113B75-1FF7-41FE-9942-6A2735B865DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{122599E2-A7AE-4164-8209-982F18241B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122599E2-A7AE-4164-8209-982F18241B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122599E2-A7AE-4164-8209-982F18241B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26113B75-1FF7-41FE-9942-6A2735B865DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26113B75-1FF7-41FE-9942-6A2735B865DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26113B75-1FF7-41FE-9942-6A2735B865DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26113B75-1FF7-41FE-9942-6A2735B865DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
