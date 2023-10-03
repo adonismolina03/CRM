@@ -1,3 +1,4 @@
+using AAMG.CRMAPI.Endpoints;
 using AAMG.CRMAPI.Models.DAL;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +13,11 @@ builder.Services.AddDbContext<AAMGContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Conn"))
 );
 
+builder.Services.AddScoped<CustomerDAL>();
+
 var app = builder.Build();
+
+app.AddCustomerEndpoint();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
