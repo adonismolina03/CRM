@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AAMG.DTOs\AAMG.DTOs.csproj" />
+  </ItemGroup>
+
 </Project>

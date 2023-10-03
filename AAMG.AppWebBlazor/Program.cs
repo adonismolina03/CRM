@@ -7,7 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<CustomerService>();
+builder.Services.AddHttpClient("AAMGAPI", c =>
+{
+    c.BaseAddress = new Uri(builder.Configuration["UrlsAPI:AAMG"]);
+});
 
 var app = builder.Build();
 

@@ -7,7 +7,7 @@ namespace AAMG.AppWebBlazor.Data
         readonly HttpClient _httpClientAAMGAPI;
         public CustomerService(IHttpClientFactory httpClientFactory)
         {
-            _httpClientAAMGAPI = httpClientFactory.CreateClient("KJMCAPI");
+            _httpClientAAMGAPI = httpClientFactory.CreateClient("AAMGAPI");
         }
 
         public async Task<SearchResultCustomerDTO> Search(SearchQueryCustomerDTO queryCustomerDTO)
