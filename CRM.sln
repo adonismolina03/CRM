@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAMG.CRMAPI", "AAMG.CRM.API\AAMG.CRMAPI.csproj", "{81A82412-F1C7-4F1B-A7B0-C43999462629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAMG.DTOs", "AAMG.DTOs\AAMG.DTOs.csproj", "{D2BEDD1E-C47A-44CA-94EC-D87D1BAAFFCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A82412-F1C7-4F1B-A7B0-C43999462629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A82412-F1C7-4F1B-A7B0-C43999462629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A82412-F1C7-4F1B-A7B0-C43999462629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A82412-F1C7-4F1B-A7B0-C43999462629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BEDD1E-C47A-44CA-94EC-D87D1BAAFFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BEDD1E-C47A-44CA-94EC-D87D1BAAFFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BEDD1E-C47A-44CA-94EC-D87D1BAAFFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BEDD1E-C47A-44CA-94EC-D87D1BAAFFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C159A059-2A08-4691-BC93-D002FF9B9F0A}
+	EndGlobalSection
+EndGlobal
